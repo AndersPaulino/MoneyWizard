@@ -6,6 +6,7 @@ import lombok.Setter;
 
 import java.time.LocalDateTime;
 
+@MappedSuperclass
 public abstract class AbstractEntity {
 
     @Id
